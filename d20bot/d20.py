@@ -6,7 +6,7 @@ https://www.devdungeon.com/content/make-discord-bot-python
 import discord
 import random
 
-TOKEN = 'NDQ4NTM3NDEzNjM2MTk0MzM0.DeXktQ.2tN85t6zoh4OHrLqWujHAOUBJ2U'
+TOKEN = '****'
 
 client = discord.Client()
 
