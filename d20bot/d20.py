@@ -6,8 +6,6 @@ https://www.devdungeon.com/content/make-discord-bot-python
 import discord
 import random
 
-TOKEN = '****'
-
 client = discord.Client()
 
 @client.event
@@ -29,4 +27,7 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
+
+token_fh = open('token.cfg','r')
+TOKEN = token_fh.readline().rstrip()
 client.run(TOKEN)
